@@ -1,0 +1,17 @@
+{
+  "name": "postcss-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "rollup": "^3.24.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
