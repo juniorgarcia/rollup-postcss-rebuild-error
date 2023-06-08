@@ -12,8 +12,7 @@ module.exports = {
       ],
       plugins: [
         postcss({
-            // extract: path.resolve(__dirname, 'dist/bundle.css'),
-            extract: true,
+            extract: path.resolve(__dirname, 'dist/bundle.css'),
         })
       ]
 }
